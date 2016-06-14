@@ -1,0 +1,7 @@
+[Criptografia] https://www.urionlinejudge.com.br/judge/pt/problems/view/1024
+[Fractran] https://www.urionlinejudge.com.br/judge/pt/problems/view/1674
+[Feynman] https://www.urionlinejudge.com.br/judge/pt/problems/view/1323
+[Numerando Estradas] https://www.urionlinejudge.com.br/judge/pt/problems/view/1306
+[Contando Uns] https://www.urionlinejudge.com.br/judge/pt/problems/view/1492
+[Ano Bissexto ou Ano não Bissexto] https://www.urionlinejudge.com.br/judge/pt/problems/view/1279
+

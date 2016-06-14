@@ -1,0 +1,65 @@
+1 Programação Dinâmica
+2 Métodos da Bisseção da busca binária
+
+**************************************
+3 Easy Longest Common Subsequence (LCS)
+
+AAATTT
+GAATCT
+  * A A A T T T 
+* 0 0 0 0 0 0 0 
+G 0 0 0 0 0 0 0 
+A 0 1 1 1 1 1 1 
+A 0 1 2 2 2 2 2 
+T 0 1 2 2 3 3 3 
+C 0 1 2 2 3 3 3 
+T 0 1 2 2 3 4 4 
+
+- Preenchimento da matriz
+Varre a matriz em sentido crescente
+a partir da posição i=1 e j=1.
+Se for igual, pega o valor da diagonal
+superior esquerda, se for diferente,
+pega o maior valor entre superior e esquerda.
+
+- Backtrack
+Varre a matriz em sentido decrescente
+a partir da posição i=length(str) e j=length(str).
+Se for maior do que o de cima e o da
+esquerda,"printa" e vai para diagonal,
+senão, vai para esquerda ou para cima(segue o maior)
+
+**************************************
+4 Edit Distance
+
+BOLACHA
+BISCOITO
+  * B O L A C H A 
+* 0 1 2 3 4 5 6 7 
+B 1 0 1 2 3 4 5 6 
+I 2 1 1 2 3 4 5 6 
+S 3 2 2 2 3 4 5 6 
+C 4 3 3 3 3 3 4 5 
+O 5 4 3 4 4 4 4 5 
+I 6 5 4 4 5 5 5 5 
+T 7 6 5 5 5 6 6 6 
+O 8 7 6 6 6 6 7 7
+Quantidade minima de remoções, inserções
+e trocas de caracteres para transformar
+uma string em outra.
+- Preencimento da matriz
+Verifica-se qual a menor soma entre cima+1,
+esquerda+1 e diagonal+custo, onde custo=0
+se letra for igual e custo=1 se for diferente.
+
+**************************************
+5 KMP {game over}
+**************************************
+6 Grafos - Busca por profundidade/largura {game over}
+**************************************
+7 Grafos - Árvore geradora mínima e caminho mínimo
+**************************************
+8 Grafos - Articulações (Vértice de Corte) e Pontes (Arestas de corte)
+**************************************
+9 Geometria Computacional
+**************************************
