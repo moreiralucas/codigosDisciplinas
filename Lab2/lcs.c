@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 int main (){
     int q, i, j, tam1, tam2, teste=0, matrix[101][101];
     char s1[101], s2[101],s3[101]={'L','u','c','a','s'};
@@ -33,5 +33,4 @@ int main (){
 //		scanf("%s%s", s1, s2);
 //	}
     return 0;
- //   system("pause");
 }

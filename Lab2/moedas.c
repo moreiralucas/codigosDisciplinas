@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main (){
 	int s, m, n, i, j;
 	int memoria[50002];

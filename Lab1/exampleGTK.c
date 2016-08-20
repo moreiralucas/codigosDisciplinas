@@ -1,5 +1,6 @@
-/* Primeiro Exemplo - Alo Mundo - alo.c */
+//g++ exampleGTK.c -o executavel `pkg-config --cflags --libs gtk+-3.0`
 
+/* Primeiro Exemplo - Alo Mundo - alo.c */
 #include <gtk/gtk.h>
 int main(int argc, char **argv)
 {
