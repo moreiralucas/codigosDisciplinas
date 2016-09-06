@@ -45,5 +45,4 @@ void retira(ListaInt *l, int x){
 			*l = NULL;
 		free(p);
 	}
-	
 }

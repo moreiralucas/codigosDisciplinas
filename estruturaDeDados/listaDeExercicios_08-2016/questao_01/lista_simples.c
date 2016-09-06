@@ -6,7 +6,7 @@ typedef struct NolistaInt{
 }NolistaInt, *ListaInt;
 
 void inicializa(ListaInt *l){
-	*l=NULL;
+	l=NULL;
 }
 
 //Letra A

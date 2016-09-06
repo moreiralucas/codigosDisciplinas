@@ -9,6 +9,9 @@ typedef struct NoListaInt{
 
 typedef NoListaInt *ListaInt;
 
+ListaInt q;
+NoListaInt *p;
+
 void inicializa (ListaInt *l){
 	*l->prox=*l;
 	*l= NULL;
@@ -47,3 +50,7 @@ void retira (ListaInt *l, int x){
 	}
 }
 
+int main(){
+	
+	return 0;
+}

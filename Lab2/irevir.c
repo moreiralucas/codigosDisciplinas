@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define maxtam 2001
+#define maxtam 100
 //#define tamTeste 300
 //static int fila[maxtam];
 static matrix[maxtam][maxtam];

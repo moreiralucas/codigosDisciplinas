@@ -8,37 +8,53 @@ typedef struct NolistaInt{
 }NolistaInt, *listaInt;
 
 void inicializa(listaInt *l){
-	l=NULL;
+	*l=NULL;
 }
 
+//Letra A
 void eliminaKEsimo(listaInt *l, int k) {
 	if(l){
-		NolistaInt *p, *q, *u;
+		NolistaInt *p, *q;
 		int i;
-		for(i=1, p=*l, q=NULL; (i != k) && p; i++, q=p, p=p->prox);
-		if(p){
-			c = p->chave;
+		for(i=1, p=*l, q=NULL; (i != k) && (p); i++, q=p, p=p->prox);
+		if(p)
 			if(q)
 				q->prox=p->prox;
 			else
 				*l= p->prox;
-		}
-
+		
 	}
 }
+
+//Letra B
 void retiraMaior(listaInt *l){
 	if(l){
-		NolistaInt *p, *q, *u;
-		q=NULL;
+		NolistaInt *p, *q;
 		int maior = l->chave;
-		for(p=*l; p; p=p->prox)
-			if(p->chave > maior){
+		for(p=*l, q=NULL; p; q=p, p=p->prox)
+			if(p->chave >= maior){
 				maior = p->chave;
-				q=p;
+				//q=p;
 			}
-		if(q)
-			q->prox = p->prox;
+		for(p=*l, q=NULL; (p->chave != maior) && p; q=p, p=p->prox);
+		if(p){
+			if(q)
+				q->prox = p->prox;
+			else
+				*l->prox = p->prox;
+		}
 	}
 }
 
-void retiraElementos(listaInt *l, int x)
+//Letra C
+void retiraElementos(listaInt *l, int x){
+	if(l){
+		NolistaInt *p, *q;
+		for(p=*l, q=NULL; p; q=p, p=p->prox){
+			if(p->chave == x){
+				q->prox=p->prox;
+
+			}
+		}
+	}
+}
