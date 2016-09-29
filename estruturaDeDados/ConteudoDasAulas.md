@@ -3,7 +3,7 @@
 #### Conteúdo das últimas aulas
 
 
-[Códigos][df-1]: Struct.
+[Códigos][df1]: Struct.
 
 [Video-Aula][vd-1]: Explicação de como funciona uma struct.
 
@@ -31,6 +31,7 @@
 
 [Ordenação][ext]: Utilizando a função sort do c++ com o comparador próprio
 
+[df0]: <https://github.com/moreiralucas/codigosDisciplinas/tree/master/estruturaDeDados>
 [df1]: <https://github.com/moreiralucas/codigosDisciplinas/blob/master/estruturaDeDados/listas/listaSimplesVetor.c>
 [df2]: <https://github.com/moreiralucas/codigosDisciplinas/blob/master/estruturaDeDados/listas/listaSimplesPonteiro.c>
 [df3]: <https://github.com/moreiralucas/codigosDisciplinas/blob/master/estruturaDeDados/listas/listaDuplamenteEncadeada.c>
