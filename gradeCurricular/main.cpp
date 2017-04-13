@@ -59,6 +59,7 @@ void mousefunc(int event, int x, int y, int flags, void* userdata) {
 }
 
 int main(int argc, char const *argv[]) {
+	string winname = "Display window";
 	imgOrig = imread(argv[1]); //ver parâmetros
 	cout << (loadChecked()? "Loaded checked!" : "Error! Load image checked Failed.") << '\n';
 	resize(checked, checked, Size(40, 40));
@@ -66,47 +67,21 @@ int main(int argc, char const *argv[]) {
 		cerr << "Usage: " << argv[0] << " <image-file-name>\n";
 		exit(0);
 	}
-	namedWindow( "Display window", CV_WINDOW_AUTOSIZE );// Create a window for display.
-	setMouseCallback("Display window", mousefunc, NULL);
+	namedWindow(winname, CV_WINDOW_AUTOSIZE );// Create a window for display.
+	setMouseCallback(winname, mousefunc, NULL);
 	char c;
+	int cont =0;
 	while((c = waitKey(10)) != 27) {
 		switch(c) {
 			case 's':
-				imwrite("result_fluxograma.png", imgOrig);
+				string path = "result_fluxograma" + to_string(cont++) +".png";
+				imwrite(path, imgOrig);
 				cout << "Saved file!" << endl;
+				//destroyWindow(winname);
 				break;
 		}
-		imshow("Display window", imgOrig);
+		imshow(winname, imgOrig);
 	}
-	//circle(imgOrig, Point(58, 170), 20, Scalar(255, 0, 0), -1);
-	//circle(imgOrig, Point(58, 615), 20, Scalar(255, 0, 0), -1);
-
-	//circle(imgOrig, Point(934, 170), 20, Scalar(255, 0, 0), -1);
-	//circle(imgOrig, Point(934, 615), 20, Scalar(255, 0, 0), -1);	
-	/*
-	int coluna = 58;
-	for (int i = 0; i < 8; ++i){
-		//line(imgOrig, Point(coluna,170), Point(coluna,615), Scalar(0, 0, 255));
-		int linha = 170;
-		for (int j = 0; j < 6; ++j){
-			//line(imgOrig, Point(58,linha), Point(934,linha), Scalar(0, 0, 255));
-			linha+=90;
-		}
-		coluna+=127;
-	}
-    //imshow("Display window", imgOrig ); // Show our image inside it.
-    
-    for (int i = 0; i < 0; ++i){
-    	for (int j = 0; j < 0; ++j){
-    		imgOrig.at<Vec3b>(i, j)[0] = 0;
-    		imgOrig.at<Vec3b>(i, j)[1] = 0;
-    		imgOrig.at<Vec3b>(i, j)[2] = 0;
-    	}
-    }
-	namedWindow( "Display window2", CV_WINDOW_AUTOSIZE );// Create a window for display.
-    imshow("Display window2", imgOrig ); // Show our image inside it.
-    waitKey(0);
-    */
 	return 0;
 }
 //line(Mat& img, Point pt1, Point pt2, const Scalar& color, int thickness=1, int lineType=8, int shift=0)¶
