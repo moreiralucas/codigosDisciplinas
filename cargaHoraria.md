@@ -9,7 +9,7 @@ IC | 34 horas por semestre (max 2 anos) | -
 Inglês  (NELG) | 68 horas por nível (max 2 níveis) | -
 Artigo | 34 horas por artigo (max 2 artigos) | 34 Horas por artigo (max 2 artigos)
 Extensão | 34 horas por semestre (max 02 anos) | 34 horas por semestre (max 2 semestre)
-ACC | 68 horas por atividade (max 2) | 68 horas por atividade (max 1 atividade)
+ACCS | 68 horas por atividade (max 2) | 68 horas por atividade (max 1 atividade)
 GRACO | 51 por semestre (max 1 semestre) | 51 por semestre (max 1 semestre)
 Info Jr. | 51 por ano (max 2 anos) | 51 horars por ano (max 1 ano)
 Monitoria | 34 por semestre (max 2 monitorias) | 34 por semestre (max 2 monitorias)
