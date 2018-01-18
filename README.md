@@ -1,7 +1,9 @@
 # Códigos de algumas disciplinas no Curso de Ciência da Computação - UFBA
 
-*Laboratório de programação I*
+*MATA57 - Laboratório de programação I*
 
-*Laboratório de programação II*
+*MATA52 - Laboratório de programação II*
 
-*Estrutura de Dados I*
+*MATA40 - Estrutura de Dados I*
+
+*MATA54 - Estrutura de Dados II*
