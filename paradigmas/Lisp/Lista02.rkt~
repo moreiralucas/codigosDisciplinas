@@ -1,0 +1,9 @@
+#lang racket
+;Questão 01 - Lista 02
+(define (concatena1 l1 l2)
+  (cond
+    [(null? l2) '()]
+    [(null? l1) (cons (first l2) (concatena1 l1 (rest l2)))]
+    [else (cons (first l1) (concatena1 (rest l1) l2))]
+   )
+)

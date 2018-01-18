@@ -7,3 +7,5 @@
 *MATA40 - Estrutura de Dados I*
 
 *MATA54 - Estrutura de Dados II*
+
+*MATE12 - Paradigmas de Linguagens de programação*

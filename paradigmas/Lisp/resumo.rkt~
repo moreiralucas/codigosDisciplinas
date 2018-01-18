@@ -1,0 +1,50 @@
+(define l1 '(a b c d e a a a b b b))
+
+(define l2 '(((ra a) b d a) (fd s (www b)) (d (c a))))
+
+(define l3 '(a . b))
+
+(define l4 '())
+
+(define l5 '(a a a b b b c c c a a d d d d d d))
+
+(define l6 '(1 2 3 4 5 6))
+
+(define A1 'abcde)
+
+(define A2 'xyz)
+
+(define (sqr2 a) (* a a))
+
+(define (sqr3 a) (* a (sqr2 a)))
+
+(define (sqr4 a) (* a (sqr3 a)))
+
+(define (atom? x)
+  (not (list? x)))
+
+(define (non-atom? a)
+  (if (atom? a)
+      #f
+      #t))
+
+(define sqr1 (lambda(x) (* x x)))
+
+(define (lat? l)
+  (cond
+    [(null? l) #t]
+    [(non-atom? (car l)) #f]
+    [else (lat? l)]
+    ))
+
+(define (soma-numeros l)
+  if (null? l)
+    0
+    (+ (first l) (soma-numeros(cdr l))))
+
+(define x 4)
+
+(define r1 (make-estudante 'lucas 214 2017))
+
+
+
