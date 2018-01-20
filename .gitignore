@@ -1,4 +1,5 @@
 */*.o
 */*.out
+*/*.in
 gradeCurricular/result_fluxograma.png
 Lab1/in
