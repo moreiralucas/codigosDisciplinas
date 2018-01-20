@@ -14,15 +14,15 @@ int main() {
     int tam_texto;
     string texto, padrao_texto;
 
-    // Lendo os dados de entrada
+    // -------- Lendo os dados de entrada -----------
     cin >> tam_texto;
     cin.ignore();
     getline(cin, texto);
     getline(cin, padrao_texto);
-
+    // ------------------------------------------------
     Search_word text(tam_texto, texto, padrao_texto);
-    text.print_datas();
-    
+    if(debug) text.print_datas();
+
     char input;
     while (cin >> input, input != 'e') {
         if (input == 's') {
