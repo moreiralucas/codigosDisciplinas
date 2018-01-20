@@ -1,5 +1,4 @@
-*.out
-Lab1/*.out
+*/*.o
+*/*.out
 gradeCurricular/result_fluxograma.png
-gradeCurricular/*.out
 Lab1/in
