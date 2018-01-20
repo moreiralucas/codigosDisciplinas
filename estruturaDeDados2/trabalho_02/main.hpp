@@ -6,7 +6,7 @@
 
 // -------------------------------------------
 // Trecho utilizado somente para desenvolvimento
-#define debug false
+#define debug true
 
 #ifndef print
 #define print if(debug)std::cout <<
