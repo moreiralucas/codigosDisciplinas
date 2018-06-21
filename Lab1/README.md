@@ -1,1 +1,4 @@
-# Códigos implementados na disciplina Laboratório de Programação I
+# Disciplina MATA57 - Laboratório de programação I
+
+
+Códigos implementados na linguagem C como forma de exercícios propostos na disciplina.
