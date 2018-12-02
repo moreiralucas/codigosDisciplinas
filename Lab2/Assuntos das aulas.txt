@@ -19,7 +19,7 @@ T 0 1 2 2 3 4 4
 Varre a matriz em sentido crescente
 a partir da posição i=1 e j=1.
 Se for igual, pega o valor da diagonal
-superior esquerda, se for diferente,
+superior esquerda + 1, se for diferente,
 pega o maior valor entre superior e esquerda.
 
 - Backtrack
