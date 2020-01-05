@@ -1,0 +1,16 @@
+{
+  "ref1": {
+    "principal": "abc",
+    "secundario": "hello",
+    "pveg": "xyz"
+  },
+  "ref2": {
+    "principal": "abc",
+    "secundario": "hello",
+    "pveg": "xyz"
+  },
+  "profile": {
+    "name": "lucas",
+    "avatar": 0
+  }
+}
