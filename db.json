@@ -1,19 +1,19 @@
 {
     "login": {
         "toten" : {
-            'token': '2a38b21579fb5778a68272a23bc76a4177b70749c9547f07d9a333f51d434421',
-            'msg': 'Usuário autorizado',
-            'data': {
-                'matricula': '1000',
-                'nome': 'Magnum Satangois'
+            "token": "2a38b21579fb5778a68272a23bc76a4177b70749c9547f07d9a333f51d434421",
+            "msg": "Usuário autorizado",
+            "data": {
+                "matricula": "1000",
+                "nome": "Magnum Satangois"
             }
         }
     },
     "registra": {
-        'msg':'Registro efetuado com sucesso!',
-        'token': '852e69a2eaa43ace2ef14511b9c4a40b626c7efd7b9f722e49a5e3bfea0bb1e0',
-        'data': {
-            'matricula': '1000'
+        "msg":"Registro efetuado com sucesso!",
+        "token": "852e69a2eaa43ace2ef14511b9c4a40b626c7efd7b9f722e49a5e3bfea0bb1e0",
+        "data": {
+            "matricula": "1000"
         }
     }
 }
