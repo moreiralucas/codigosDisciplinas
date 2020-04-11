@@ -14,7 +14,7 @@
             "matricula": "1000"
         }
     },
-    "abril": [
+    "eventos": [
         {
             "nome": "Yasmin Santos",
             "metadatanome": [],
@@ -181,9 +181,7 @@
             "dia": 30,
             "insta": "",
             "youtube": ""
-        }
-    ],
-    "maio": [
+        },
         {
             "nome": "Cabaré",
             "metadatanome": [
@@ -192,6 +190,7 @@
             ],
             "horario": "20:00",
             "dia": 1,
+            "mes": 5,
             "insta": "",
             "youtube": ""
         },
@@ -200,8 +199,9 @@
             "metadatanome": [],
             "horario": "17:00",
             "dia": 2,
+            "mes": 5,
             "insta": "jorgeemateus",
             "youtube": ""
         }
-    ]
+    ],
 }
