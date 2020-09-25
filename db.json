@@ -1,4 +1,5 @@
 {
+    "tickets": ["mxrf11", "mall11", "visc11"],
     "login": {
         "token": "2a38b21579fb5778a68272a23bc76a4177b70749c9547f07d9a333f51d434421",
         "msg": "Usuário autorizado",
